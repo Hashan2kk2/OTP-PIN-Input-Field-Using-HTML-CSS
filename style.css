@@ -1,0 +1,34 @@
+body{
+    background-color: black;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.otp-field{
+    display: flex;
+}
+
+.otp-field input{
+    width: 37px;
+    font-size: 18px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    margin: 4px;
+    border: 2px solid rgba(100,100,100, 0.2);
+    color: #fff;
+    outline: none;
+    background-color: #090909;
+    transition:  all 0.1s;
+}
+
+.otp-field input:focus{
+    border: 2px solid #a527ff;
+    box-shadow: 0 0 2px 2px #a527ff6a;
+}
+
+.space{
+    margin-right: 1rem !important;
+}
